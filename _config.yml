@@ -3,7 +3,7 @@ title: Waterfox Blog
 SEOTitle: CH 博客 | Waterfox Blog
 header-img: img/background/home-bg.jpg
 email: superwaterfox@qq.com
-description: "关于后端、数据与运动 | 陈浩，Web & Data，Sports，Life Designer | 这里是 @Waterfox陈浩 的个人博客，与你一起发现更大的世界。"
+description: "关于后端、数据与运动 | 陈浩，About an engineer & designer who loves web | 这里是 @Waterfox陈浩 的个人博客，与你一起发现更大的世界。"
 keyword: "陈浩, Waterfox陈浩, Waterfox, 鬼栈, Waterfoxpro, @Waterfoxpro, 陈浩的博客, Waterfox Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
 url: "https://superwaterfox.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog' 
