@@ -46,7 +46,11 @@ Boostrap4  估计就是要淘汰浏览器的低版本的，不再支持
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 ```
+
+
+
 ### 预编译文件目录
+
 ```
 bootstrap/
 ├── css/
@@ -65,7 +69,11 @@ bootstrap/
 
     这是最基本的 Bootstrap 文件组织形式：未压缩版的文件可以在任意web项目中直接使用。我们同时提供了压缩（bootstrap.min.*）与未压缩 (bootstrap.*) 的 CSS 和 JS 文件。字体图标文件来自于 Glyphicons。
 ```
+
+
 ### Bootstrap 源码
+
+
 ```
 Bootstrap 源码包含了预先编译的 CSS、JavaScript 和图标字体文件，并且还有 LESS、JavaScript 和文档的源码。具体来说，主要文件组织结构如下：
 
@@ -85,7 +93,10 @@ less/、js/ 和 fonts/ 目录分别包含了 CSS、JS 和字体图标的源码�
 
 
 ---
-基本模板
+
+
+### 基本模板
+
 ```
 	<html>
 		<head>
@@ -109,7 +120,9 @@ less/、js/ 和 fonts/ 目录分别包含了 CSS、JS 和字体图标的源码�
 ```
 <p id = "build"></p>
 ---
-懒人版
+
+###　懒人版
+
 ```
 
 	<html>
