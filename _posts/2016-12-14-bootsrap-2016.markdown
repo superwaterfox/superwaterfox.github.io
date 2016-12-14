@@ -1,0 +1,147 @@
+---
+layout:     post
+title:      "Boostrap的学习"
+subtitle:   " \"Boostrap的初记\""
+date:       2016-12-06 12:00:00
+author:     "Waterfox"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 前端
+---
+
+> “一站式，就缺前端 ”
+
+
+
+## 介绍 和 引用
+
+
+[中文官网](http://www.bootcss.com/)
+
+	boostrap 是twitter推出的，傻瓜式的容易上手的插件
+* 1.兼容移动端的开发
+* 2.将css和js进行封装
+* 3.响应式的页面渲染,也就是各设备展现不同的方式
+
+[直接跳过使用模板](#build)
+
+版本：
+[Boostrap3]{http://v3.bootcss.com/getting-started/#download}  使用css3，那么ie678都是不支持的
+[Boostrap4]{http://v3.bootcss.com/getting-started/#download}  估计就是要淘汰浏览器的低版本的，不再支持
+
+ 
+
+```
+官网推荐的文件源
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+```
+
+
+
+### 预编译文件目录
+
+```
+bootstrap/
+├── css/
+│   ├── bootstrap.css
+│   ├── bootstrap.min.css
+│   ├── bootstrap-theme.css
+│   └── bootstrap-theme.min.css
+├── js/
+│   ├── bootstrap.js
+│   └── bootstrap.min.js
+└── fonts/
+    ├── glyphicons-halflings-regular.eot
+    ├── glyphicons-halflings-regular.svg
+    ├── glyphicons-halflings-regular.ttf
+    └── glyphicons-halflings-regular.woff
+
+    这是最基本的 Bootstrap 文件组织形式：未压缩版的文件可以在任意web项目中直接使用。我们同时提供了压缩（bootstrap.min.*）与未压缩 (bootstrap.*) 的 CSS 和 JS 文件。字体图标文件来自于 Glyphicons。
+```
+
+
+### Bootstrap 源码
+
+
+```
+Bootstrap 源码包含了预先编译的 CSS、JavaScript 和图标字体文件，并且还有 LESS、JavaScript 和文档的源码。具体来说，主要文件组织结构如下：
+
+Copy
+bootstrap/
+├── less/
+├── js/
+├── fonts/
+├── dist/
+│   ├── css/
+│   ├── js/
+│   └── fonts/
+└── docs/
+    └── examples/
+less/、js/ 和 fonts/ 目录分别包含了 CSS、JS 和字体图标的源码。dist/ 目录包含了上面所说的预编译 Bootstrap 包内的所有文件。docs/ 包含了所有文档的源码文件，examples/ 目录是 Bootstrap 官方提供的实例工程。除了这些，其他文件还包含 Bootstrap 安装包的定义文件、许可证文件和编译脚本等。
+```
+
+
+---
+
+
+### 基本模板
+
+```
+	<html>
+		<head>
+				<meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<!--微软的EDGE浏览器兼容-->
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<!--视图接口，宽度与视屏宽度一直，初始化时1:1-->
+				<title></title>
+
+				<!-- Bootstrap -->
+				<link href="css/bootstrap.min.css" rel="stylesheet">
+		</head>
+		<body>
+			
+				<!--文件引入放到最后-->
+				<script src="js/jquery.min.js"></script>
+				<script src="js/bootstrap.min.js"></script>
+		</body>
+	</html>
+```
+<p id = "build"></p>
+---
+
+### 懒人版
+
+```
+
+	<html>
+		<head>
+				<meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<!--微软的EDGE浏览器兼容-->
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<!--视图接口，宽度与视屏宽度一直，初始化时1:1-->
+				<title></title>
+
+				<!-- Bootstrap -->
+				<link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+		</head>
+		<body>
+			
+				<!--文件引入放到最后-->
+				<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+				<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		</body>
+	</html>
+```
