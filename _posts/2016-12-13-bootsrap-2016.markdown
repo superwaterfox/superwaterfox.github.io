@@ -1,17 +1,17 @@
 ---
 layout:     post
 title:      "JAVA开发环境Maven"
-subtitle:   " \"Maven简洁\""
+subtitle:   " \"Maven简洁开发\""
 date:       2016-12-14 20:00:00
 author:     "Waterfox"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 前端
+    - 后端
 ---
 
-> “懒人java开发环境必备 ”
-常用的maven配置，分享
+> “懒人java开发环境必备+常用的maven配置，分享 ”
+
 
 
 ## 国内源
@@ -55,7 +55,7 @@ tags:
 
 
 
-## web插件推荐
+## web插件**推荐**
 
 ```
 <build>
