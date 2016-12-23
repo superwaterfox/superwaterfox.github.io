@@ -20,4 +20,5 @@ tags:
 后端学习前端，感觉很多东西要硬敲了，前端背的东西还是挺多的
 
 [直接跳过使用模板](#build)
-2016/12/23  第一次写微信的[登陆界面]("http://htmlpreview.github.io/?https://github.com/superwaterfox/superwaterfox.github.io/blob/master/Test/weixin/index.html")
+2016/12/23  第一次写微信的
+<a href="http://htmlpreview.github.io/?https://github.com/superwaterfox/superwaterfox.github.io/blob/master/Test/weixin/index.html">登陆界面</a>
