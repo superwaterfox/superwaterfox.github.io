@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>微信扫码登陆</title>
+	<style type="text/css">
+		html,body{
+			font-family: "Microsoft YaHei";/**微软雅黑**/
+			width: 100%;/**获得一个全屏的容器**/
+			height: 100%;/**获得一个全屏的容器**/
+			margin:0px;
+			padding: 0px;
+			background: url("images/web_wechat.jpg") no-repeat;/**位置不够不进行重复图片**/
+			position: fixed;/**位置平铺,会变形**/
+			
+			/**background-size: 100%;放大图片等于100%，但是图片的尺寸不可能符合，不变形而已**/
+		}
+
+		#main {
+			width: 380px;
+			height: 540px;
+			background-color: #ffffff;
+
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 150px;
+			text-align: center;
+			-webkit-border-radius:4px;/**添加圆角**/
+			-webkit-box-shadow:#999 0 2px 10px;/**添加容器的外阴影，增加立体感**/
+		}
+
+		#main img{
+			margin-top: 30px;
+		}
+		#main p{
+			font-size: 18px;
+			margin: 0px;
+			-webkit-font-smoothing: antialiased;/**只在MacOs上才有效果,其他都没有效果**/
+		}
+
+	</style>
+</head>
+<body>
+	<div id="main">
+		<img  src="images/ocCKtts7sQ==.jpg" width="276px" height="276px">
+		<p>扫描二维码登陆微信</p>
+		<img src="images/detail.png">
+	</div>
+</body>
+</html>
+
+<!--默认的html是以文字大小进行伸缩的，就是默认不全屏,比如只有一行字，那么html的空间只有一行-->
+<!--html标签容器，都有默认的边距margin长度，需要自己排版-->
