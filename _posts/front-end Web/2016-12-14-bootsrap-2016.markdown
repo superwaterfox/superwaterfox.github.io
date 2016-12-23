@@ -16,8 +16,7 @@ tags:
 
 ## 介绍 和 引用
 
-
-[中文官网](http://www.bootcss.com/)
+<a href="http://www.bootcss.com/" target="_blank">中文官网</a>
 
 	boostrap 是twitter推出的，傻瓜式的容易上手的插件
 * 1.兼容移动端的开发

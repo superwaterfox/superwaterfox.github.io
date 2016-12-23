@@ -21,4 +21,4 @@ tags:
  
 [直接跳过使用模板](#build)
 2016/12/23  第一次写微信的
-<a href="http://htmlpreview.github.io/?https://github.com/superwaterfox/superwaterfox.github.io/blob/master/Test/weixin/index.html">登陆界面</a>
+<a href="http://htmlpreview.github.io/?https://github.com/superwaterfox/superwaterfox.github.io/blob/master/Test/weixin/index.html" target="_blank">登陆界面</a>
