@@ -18,7 +18,7 @@ tags:
 
 <a href="http://www.bootcss.com/" target="_blank">中文官网</a>
 
-	boostrap 是twitter推出的，傻瓜式的容易上手的插件
+	boostrap 是twitter推出的，傻瓜式的容易上手的插件。简单易用.  
 * 1.兼容移动端的开发
 * 2.将css和js进行封装
 * 3.响应式的页面渲染,也就是各设备展现不同的方式
