@@ -16,24 +16,42 @@ tags:
 
 ## 介绍
 
-GitKraken目前只出了linux版和Mac版，windows的小伙伴应该无缘了。作为一个git客户端，简洁的界面UI和能用图标解决问题的，就不用文字来描述的APP，给使用者带来更多的是 清新和方便，能将一个工具做到如此极致，作为程序员使用是一种享受。
+GitKraken目前只出了linux版和Mac版，windows的小伙伴应该无缘了。作为一个git客户端，简洁的界面UI和能用图标解决问题的，就不用文字来描述的APP，给使用者带来更多的是 清新和方便，能将一个工具做到如此极致，作为程序员使用是一种享受
 
-![](/img/gitkraken/85CC48A3-FF40-4E28-AB81-286B9E1D76BD.png)   
+![image](/img/gitkraken/85CC48A3-FF40-4E28-AB81-286B9E1D76BD.png)   
 
 
 ## 使用
 打开Repository Management
-![](/img/gitkraken/DECB0AB6-3FE7-455E-8273-134281A194FD.png)   
+![image](/img/gitkraken/DECB0AB6-3FE7-455E-8273-134281A194FD.png)   
 
 
 ## clone项目
+```
 Where to clone to     clone后的放置路径
 Repository to clone   git项目的地址
-Full path              Where to clone to 和Repository to clone 结合起来的路径。就是你保存后的项目路径
+Full path              Where to clone to 和Repository to clone 结合起来的路径。就是你保存后的项目路径！！记住很重要
+```
+![image](/img/gitkraken/C79C1B27-3C57-4E01-B15B-18EA67F5B14A.png)   
 
-![](/img/gitkraken/C79C1B27-3C57-4E01-B15B-18EA67F5B14A.png)   
+## 修改文件
+Clone下载的项目文件在 上述 Full path中，在Finder下你可以随意在这个目录下修改任何文件。
+
+> tip:可能习惯了svn修改文件后，会有图标显示标注红色区分有没有修改，但是MAC不提供有这样多变的图标提醒
+
+![image](/img/gitkraken/DE46BB28-DB8D-409F-9512-D022FCD8304B.png)  
+
+## 关于提交
+![image](/img/gitkraken/54B63074-B789-49F9-B098-B8B6BDA8771B.png)  
 
 
+## 下载  
+[gitkraken](https://www.gitkraken.com/)
 
 
-
+```
+Amend Previous Commit   本地Git的commit  
+Push                    远程Git的push
+```
+> 如果不能理解，那么尝试看下介绍就可以了，然后再重新看下这篇文章，你会发现，用到的功能，这个软件都已经实现了  
+[Git教学](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
