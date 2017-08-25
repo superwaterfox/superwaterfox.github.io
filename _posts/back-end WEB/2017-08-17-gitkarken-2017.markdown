@@ -41,6 +41,16 @@ Clone下载的项目文件在 上述 Full path中，在Finder下你可以随意�
 
 ![image](/img/gitkraken/DE46BB28-DB8D-409F-9512-D022FCD8304B.png)  
 
+```
+Stage all changes   提交所需修改文件。会在下方方框提示你要提交的文件
+Discard all changes   忽略所有修改文件
+
+Commit Message    git提交信息
+Summary            主题
+Description        描述
+Amend              覆盖使用上一个版本的提交。也就是强制覆盖上次的提交记录
+```
+
 ## 关于提交
 ![image](/img/gitkraken/54B63074-B789-49F9-B098-B8B6BDA8771B.png)  
 
