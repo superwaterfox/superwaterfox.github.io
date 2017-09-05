@@ -1,0 +1,99 @@
+---
+layout:     post
+title:      "bootstrap全局css"
+subtitle:   " \"bootstrap全局css\""
+date:       2017-09-04 16:30:00
+author:     "Waterfox"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 前端
+---
+
+> “一站式，就缺前端 ”
+
+
+
+
+
+
+## 响应式图像
+```
+<img src="..." class="img-responsive" alt="响应式图像">
+```
+图像更好的支持响应式布局，我们可以查看它的样式 
+```
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+```  
+>  img-responsive class 为图像赋予了 max-width: 100%; 和 height: auto; 属性，可以让图像按比例缩放，不超过其父元素的尺寸。    
+设置 height:auto，相关元素的高度取决于浏览器。  
+设置 max-width 为 100% 会重写任何通过 width 属性指定的宽度。这让图片对响应式布局的支持更友好。
+
+
+## Bootstrap默认的body布局
+```
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff;
+}
+```
+>  第一条规则设置 body 的默认字体样式为 "Helvetica Neue", Helvetica, Arial, sans-serif。  
+	第二条规则设置文本的默认字体大小为 14 像素。  
+	第三条规则设置默认的行高度为 1.428571429。  
+	第四条规则设置默认的文本颜色为 #333333。  
+	最后一条规则设置默认的背景颜色为白色。  
+	
+	
+## 链接样式
+```
+a:hover,
+a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+```
+
+## 容器样式
+```
+<div class="container">
+  ...
+</div>
+
+
+.container {
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+
+@media (min-width: 768px) {
+   .container {
+      width: 750px;
+}
+```
+
+
+
+>  通过上面的代码，把 container 的左右外边距（margin-right、margin-left）交由浏览器决定。
+	请注意，由于内边距（padding）是固定宽度，默认情况下容器是不可嵌套的。
