@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "bootstrap全局css"
+title:      "bootstrap默认全局css介绍"
 subtitle:   " \"bootstrap全局css\""
 date:       2017-09-04 16:30:00
 author:     "Waterfox"
@@ -13,25 +13,6 @@ tags:
 > “一站式，就缺前端 ”
 
 
-
-
-
-
-## 响应式图像
-```
-<img src="..." class="img-responsive" alt="响应式图像">
-```
-图像更好的支持响应式布局，我们可以查看它的样式 
-```
-.img-responsive {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
-```  
->  img-responsive class 为图像赋予了 max-width: 100%; 和 height: auto; 属性，可以让图像按比例缩放，不超过其父元素的尺寸。    
-设置 height:auto，相关元素的高度取决于浏览器。  
-设置 max-width 为 100% 会重写任何通过 width 属性指定的宽度。这让图片对响应式布局的支持更友好。
 
 
 ## Bootstrap默认的body布局

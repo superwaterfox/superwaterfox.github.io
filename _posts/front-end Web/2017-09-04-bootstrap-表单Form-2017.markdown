@@ -60,11 +60,16 @@ tags:
 </form>
 
 ```
+## Input
+	type支持text、password、datetime、datetime-local、date、month、time、week、number、email、url、search、tel 和 color
+
 
 ## Textarea文本框支持row显示的行数
 ```
 <textarea class="form-control" rows="5"></textarea>
 ```
+## Checkbox和Radio
+	对一系列复选框和单选框使用 .checkbox-inline 或 .radio-inline class，控制它们显示在同一行上
 
 ## Select支持多选
 ```
@@ -89,7 +94,7 @@ tags:
 </form>
 ```
 
-## 使用<fieldset disabled 进行批量禁用所有的表单控件
+## 使用<fieldset disabled 进行批量禁用所有的表单控件,单个用disbaled属性
 ```
 <form class="form-horizontal" role="form">
   <div class="form-group">
