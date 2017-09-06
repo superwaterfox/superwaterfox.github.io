@@ -1,0 +1,67 @@
+---
+layout:     post
+title:      "bootstrap图标和样式"
+subtitle:   " \"bootstrap图标和样式\""
+date:       2017-09-06 12:00:00
+author:     "Waterfox"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 前端
+---
+
+
+## 介绍 和 引用
+
+## 图标大全,使用span标签
+<a href="http://htmlpreview.github.io/?https://github.com/superwaterfox/superwaterfox.github.io/blob/master/Test/bootstrap/bootstrap图标.html" target="_blank">bootstrap图标大全</a>
+
+
+
+## 用法
+```
+<span class="glyphicon glyphicon-search"></span>
+```
+
+## 定制字体图标
+<a href="http://www.runoob.com/try/demo_source/bootstrap-glyph-customization.htm" target="_blank">定制字体图标</a>
+
+
+## 举例:带有字体图标的导航栏
+```
+<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-home">Home</span></a>
+                </li>
+                <li>
+                    <a href="#shop">
+                        <span class="glyphicon glyphicon-shopping-cart">Shop</span></a>
+                </li>
+                <li>
+                    <a href="#support">
+                        <span class="glyphicon glyphicon-headphones">Support</span></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.nav-collapse -->
+    </div>
+    <!-- /.container -->
+</div>
+<!-- jQuery (Bootstrap 插件需要引入) -->
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- 包含了所有编译插件 -->
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+```

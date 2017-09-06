@@ -1,0 +1,28 @@
+---
+layout:     post
+title:      "bootstrap的Img图像"
+subtitle:   " \"bootstrap的Img图像\""
+date:       2017-09-06 15:29:00
+author:     "Waterfox"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 前端
+---
+
+> “一站式，就缺前端 ”
+
+## IMG样式
+```
+.img-rounded：添加 border-radius:6px 来获得图片圆角。是图片看起来圆滑
+.img-circle：添加 border-radius:50% 来让整个图片变成圆形。使用与头像
+.img-thumbnail：添加一些内边距（padding）和一个灰色的边框。 适用于看起来像缩略图
+.img-responsive  响应式图片，随着窗口而自适应max-width: 100%; 和 height: auto; 
+```
+
+```
+<img src="/wp-content/uploads/2014/06/download.png" class="img-rounded">
+<img src="/wp-content/uploads/2014/06/download.png" class="img-circle">
+<img src="/wp-content/uploads/2014/06/download.png" class="img-thumbnail">
+```
+![](http://www.runoob.com/wp-content/uploads/2014/06/image_demo.jpg)

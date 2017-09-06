@@ -63,6 +63,52 @@ tags:
 ## Input
 	type支持text、password、datetime、datetime-local、date、month、time、week、number、email、url、search、tel 和 color
 
+	常见样式:
+	input-lg 和 .col-lg-* 来控制input标签的高度和宽度.
+	
+```
+<form role="form">
+  <div class="form-group">
+    <input class="form-control input-lg" type="text" placeholder=".input-lg">
+  </div>
+  <div class="form-group">
+    <input class="form-control" type="text" placeholder="默认输入">
+  </div>
+  <div class="form-group">
+    <input class="form-control input-sm" type="text" placeholder=".input-sm">
+  </div>
+  <div class="form-group"></div>
+  <div class="form-group">
+    <select class="form-control input-lg">
+      <option value="">.input-lg</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <select class="form-control">
+      <option value="">默认选择</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <select class="form-control input-sm">
+      <option value="">.input-sm</option>
+    </select>
+  </div>
+  <div class="row">
+    <div class="col-lg-2">
+      <input type="text" class="form-control" placeholder=".col-lg-2">
+    </div>
+    <div class="col-lg-3">
+      <input type="text" class="form-control" placeholder=".col-lg-3">
+    </div>
+    <div class="col-lg-4">
+      <input type="text" class="form-control" placeholder=".col-lg-4">
+    </div>
+  </div>
+</form>	
+```
+![image](http://www.runoob.com/wp-content/uploads/2014/06/2BA4EB24-CB47-464B-92DB-8F54D697F30E.jpg)
+
+
 
 ## Textarea文本框支持row显示的行数
 ```
@@ -145,3 +191,4 @@ tags:
   </div>
 </form>
 ```
+![image](http://www.runoob.com/wp-content/uploads/2014/06/formcontrolstate_demo.jpg)

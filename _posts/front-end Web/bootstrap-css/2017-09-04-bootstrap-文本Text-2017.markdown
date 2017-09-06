@@ -69,7 +69,7 @@ tags:
 
 
 
-## 更多字体样式
+## 更多字体功能样式
 
 ```
 .lead	使段落突出显示	
@@ -88,4 +88,14 @@ tags:
 .list-inline	将所有列表项放置同一行	
 .dl-horizontal	该类设置了浮动和偏移，应用于 <dl> 元素和 <dt> 元素中，具体实现可以查看实例	
 .pre-scrollable	使 <pre> 元素可滚动 scrollable
+```
+
+## 字体颜色样式
+```
+.text-muted	"text-muted" 类的文本样式	尝试一下
+.text-primary	"text-primary" 类的文本样式	尝试一下
+.text-success	"text-success" 类的文本样式	尝试一下
+.text-info	"text-info" 类的文本样式	尝试一下
+.text-warning	"text-warning" 类的文本样式	尝试一下
+.text-danger	"text-danger" 类的文本样式
 ```
