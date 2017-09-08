@@ -1,0 +1,146 @@
+---
+layout:     post
+title:      "bootstrap-nav导航元素"
+subtitle:   " \"bootstrap-nav导航元素\""
+date:       2017-09-07 09:58:00
+author:     "Waterfox"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 前端
+---
+
+## 基本功能样式 <ul class="nav"
+	Nav同时支持两种样式：
+		nav-tabs  标签式
+		nav-pills 胶囊式
+
+```
+    <p>基本的胶囊式导航菜单</p>
+    <ul class="nav nav-pills">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">SVN</a></li>
+        <li><a href="#">iOS</a></li>
+        <li><a href="#">VB.Net</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">PHP</a></li>
+    </ul>
+```
+
+![](http://www.runoob.com/wp-content/uploads/2014/06/tabs_demo.jpg)
+
+![](http://www.runoob.com/wp-content/uploads/2014/06/basicpills_demo.jpg)
+
+  
+## 垂直样式.nav-stacked
+```
+<p>垂直的胶囊式导航菜单</p>
+<ul class="nav nav-pills nav-stacked">
+  <li class="active"><a href="#">Home</a></li>
+  <li><a href="#">SVN</a></li>
+  <li><a href="#">iOS</a></li>
+  <li><a href="#">VB.Net</a></li>
+  <li><a href="#">Java</a></li>
+  <li><a href="#">PHP</a></li>
+</ul>
+```
+![](http://www.runoob.com/wp-content/uploads/2014/06/verticalpills_demo.jpg)
+
+
+## 自适应选择水平样式和垂直样式.nav-justified
+```
+<ul class="nav nav-tabs nav-justified">
+  <li class="active"><a href="#">Home</a></li>
+  <li><a href="#">SVN</a></li>
+  <li><a href="#">iOS</a></li>
+  <li><a href="#">VB.Net</a></li>
+  <li><a href="#">Java</a></li>
+  <li><a href="#">PHP</a></li>
+</ul>
+```
+![](http://www.runoob.com/wp-content/uploads/2014/06/justifiednavelements_demo.jpg)
+	tip:宽屏的时候选择水平，宅屏的时候选择垂直
+
+## 禁用连接 .disabled
+```
+<p>导航元素中的禁用链接</p>
+<ul class="nav nav-pills">
+  <li class="active"><a href="#">Home</a></li>
+  <li><a href="#">SVN</a></li>
+  <li class="disabled"><a href="#">iOS（禁用链接）</a></li>
+  <li><a href="#">VB.Net</a></li>
+  <li><a href="#">Java</a></li>
+  <li><a href="#">PHP</a></li>
+</ul><br><br>
+```
+
+
+## 带下拉菜单标签 <li class="dropdown-menu"
+```
+<p>带有下拉菜单的标签</p>
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">SVN</a></li>
+    <li><a href="#">iOS</a></li>
+    <li><a href="#">VB.Net</a></li>
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        Java <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Swing</a></li>
+        <li><a href="#">jMeter</a></li>
+        <li><a href="#">EJB</a></li>
+        <li class="divider"></li>
+        <li><a href="#">分离的链接</a></li>
+      </ul>
+    </li>
+    <li><a href="#">PHP</a></li>
+  </ul>
+```
+![](http://www.runoob.com/wp-content/uploads/2014/06/tabsdropdown_demo.jpg)
+
+## 带切换标签功能的标签页.tab-pane 和事件data-toggle=
+	-分为两部分，用ul制作标签页，li做标签项目，同时用data-toggle添加事件动作。同时用.tab-content制作产生内容的地方，用class="tab-pane做标记，用id作为切换标记
+```
+ <ul class="nav nav-tabs">
+  <li
+     <a data-toggle="tab" href="#menu1">	
+     
+  <div class="tab-content">
+            <div id="home" class="tab-pane fade">
+              
+```
+
+
+```
+<div class="container">
+        <h2>动态标签</h2>
+        <p><strong>提示:</strong> 与 .tab-pane 和 data-toggle="tab" (data-toggle="pill" ) 一同使用, 设置标签页对应的内容随标签的切换而更改。</p>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">首页</a></li>
+            <li><a data-toggle="tab" href="#menu1">菜单 1</a></li>
+            <li><a data-toggle="tab" href="#menu2">菜单 2</a></li>
+            <li><a data-toggle="tab" href="#menu3">菜单 3</a></li>
+        </ul>
+        ​
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <h3>首页</h3>
+                <p>菜鸟教程 —— 学的不仅是技术，更是梦想！！！</p>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <h3>菜单 1</h3>
+                <p>这是菜单 1 显示的内容。这是菜单 1 显示的内容。这是菜单 1 显示的内容。</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h3>菜单 2</h3>
+                <p>这是菜单 2 显示的内容。这是菜单 2 显示的内容。这是菜单 2 显示的内容。</p>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+                <h3>菜单 3</h3>
+                <p>这是菜单 3 显示的内容。这是菜单 3 显示的内容。这是菜单 3 显示的内容。</p>
+            </div>
+        </div>
+    </div>
+```
