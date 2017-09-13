@@ -27,3 +27,17 @@ tags:
 ```
 $('body').scrollspy({ target: '.navbar-example' })
 ```
+
+## option
+```
+target  被渲染的目标
+Offset  计算滚动位置时，距离顶部的偏移像素。默认是10
+```
+
+## refresh刷新滚动dom
+	.scrollspy('refresh')：当通过 JavaScript 调用 scrollspy 方法时，您需要调用 .refresh 方法来更新 DOM。这在 DOM 的任意元素发生变更（即，您添加或移除了某些元素）时非常有用。下面是使用该方法的语法。
+```
+$('[data-spy="scroll"]').each(function () {
+  var $spy = $(this).scrollspy('refresh')
+})
+```
