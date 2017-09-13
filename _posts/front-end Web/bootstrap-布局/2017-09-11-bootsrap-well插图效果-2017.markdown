@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      "bootstrap-well插图效果"
+subtitle:   " \"bootstrap-well插图效果\""
+date:       2017-09-11 17:40:00
+author:     "Waterfox"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 前端bootstrap
+---
+
+	.well   创建内边距和外边距和边框
+	.well-lg 创建更大的内边距和外边距和边框
+	.well-sm 创建更小的内边距和外边距和边框
+
+```
+<div class="well well-lg">您好，我在大的 Well 中！</div>
+<div class="well well-sm">您好，我在小的 Well 中！</div>
+```
+![](http://www.runoob.com/wp-content/uploads/2014/06/wellssize_demo.jpg)

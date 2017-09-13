@@ -7,10 +7,10 @@ author:     "Waterfox"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 前端
+    - 前端bootstrap
 ---
 
-## <ol class="breadcrumb
+## <ul class="pagination"
 ```
 <ul class="pagination 
 .pagination-lg  大些
@@ -19,9 +19,13 @@ tags:
 
 <Li .disabled    禁用
 <Li .active      选中
+
+<li .previous.  摆放到屏幕左侧
+<li .next       摆放到屏幕右侧
 ```
 
 
+## 默认三种大小的分页
 
 ```
 <ul class="pagination pagination-lg">

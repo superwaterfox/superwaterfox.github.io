@@ -7,7 +7,7 @@ author:     "Waterfox"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 前端
+    - 前端bootstrap
 ---
 
 ## Bootstrap 导航栏<nav class="navbar navbar-default" role="navigation">

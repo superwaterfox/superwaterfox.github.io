@@ -7,7 +7,7 @@ author:     "Waterfox"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 前端
+    - 前端bootstrap
 ---
 
 ## h1和h2可以加大标签的大小

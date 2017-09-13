@@ -7,7 +7,7 @@ author:     "Waterfox"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 前端
+    - 前端bootstrap
 ---
 
 > “一站式，就缺前端 ”

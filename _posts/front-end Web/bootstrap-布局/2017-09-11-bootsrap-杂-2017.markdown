@@ -1,0 +1,77 @@
+---
+layout:     post
+title:      "bootstrap-杂"
+subtitle:   " \"bootstrap-杂\""
+date:       2017-09-11 17:10:00
+author:     "Waterfox"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 前端bootstrap
+---
+
+
+## 超大屏幕，缩小周围边距jumbotron
+	除了更大的 <h1>，字体粗细 font-weight 被减为 200。  
+```
+<div class="container">
+   <div class="jumbotron">
+```
+
+也可以。可以获得更大的屏幕空间
+```
+<div class="jumbotron">
+    <div class="container">
+```
+
+
+## 页面标题page-header
+```
+<div class="page-header">
+    <h1>页面标题实例
+        <small>子标题</small>
+    </h1>
+</div>
+```
+
+
+## 缩略图thumbnail。制作有边距的画框
+	支持方框内使用图片，当然也可以放入其他的元素
+```
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="/wp-content/uploads/2014/06/kittens.jpg"
+                 alt="通用的占位符缩略图">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+         <div class="thumbnail">
+            <img src="/wp-content/uploads/2014/06/kittens.jpg" 
+             alt="通用的占位符缩略图">
+            <div class="caption">
+                <h3>缩略图标签</h3>
+                <p>一些示例文本。一些示例文本。</p>
+                <p>
+                    <a href="#" class="btn btn-primary" role="button">
+                        按钮
+                    </a> 
+                    <a href="#" class="btn btn-default" role="button">
+                        按钮
+                    </a>
+                </p>
+            </div>
+         </div>
+    </div>
+```
+图一。方框内只使用图片
+![](http://www.runoob.com/wp-content/uploads/2014/06/thumbnail_demo.jpg)
+
+图二。方框内可以添加其他元素
+![](http://www.runoob.com/wp-content/uploads/2014/06/bs-thumbnails.jpg)
+

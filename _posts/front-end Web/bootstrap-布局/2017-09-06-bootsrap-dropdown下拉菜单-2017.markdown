@@ -7,7 +7,7 @@ author:     "Waterfox"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 前端
+    - 前端bootstrap
 ---
 
 
@@ -54,4 +54,11 @@ tags:
     <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown">默认
         <span class="caret"></span>
     </button>
+```
+
+
+## js事件
+```
+$('.dropdown-toggle').dropdown()
+$().dropdown('toggle')
 ```

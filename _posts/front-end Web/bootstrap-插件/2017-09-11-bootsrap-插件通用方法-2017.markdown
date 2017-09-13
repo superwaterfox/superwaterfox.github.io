@@ -1,0 +1,41 @@
+---
+layout:     post
+title:      "bootstrap-well插图效果"
+subtitle:   " \"bootstrap-well插图效果\""
+date:       2017-09-11 17:40:00
+author:     "Waterfox"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 前端bootstrap
+---
+
+Bootstrap 自带 12 种 jQuery 插件，大部分的插件可以在不编写任何代码的情况被触发。引用方式：使用 bootstrap.js 
+
+## 调用方式.data-api
+	关闭事件
+	$(document).off('.data-api')
+	关闭警告事件
+	$(document).off('.alert.data-api')
+
+	
+	
+## 链式编程
+```
+// 初始化为默认行为
+$("#myModal").modal()    
+ // 初始化为不支持键盘               
+$("#myModal").modal({ keyboard: false })  
+// 初始化并立即调用 show
+$("#myModal").modal('show')  
+//获取插件的构造函数的元素
+	$('[rel=popover]').data('popover').
+```	
+
+## 解决插件冲突
+```
+// 返回 $.fn.button 之前所赋的值
+var bootstrapButton = $.fn.button.noConflict() 
+// 为 $().bootstrapBtn 赋予 Bootstrap 功能					       
+$.fn.bootstrapBtn = bootstrapButton            
+```
