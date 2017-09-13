@@ -92,7 +92,8 @@ friends: [
     {
         title: "码云superwaterfox",
         href: "https://git.oschina.net/superwaterfox"
-    },{
+    }
+    # ,{
     #     title: "乱序",
     #     href: "http://mida.re/"
     # },{
