@@ -1,0 +1,133 @@
+Searching 87 files for "乱序"
+
+/Users/ch/Documents/github/superwaterfox.github.io/_config.yml:
+   94          href: "http://su.gallery/"
+   95      },{
+   96:         title: "乱序",
+   97          href: "http://mida.re/"
+   98      },{
+
+1 match in 1 file
+
+
+Searching 87 files for "friends"
+
+/Users/ch/Documents/github/superwaterfox.github.io/_config.yml:
+   88  
+   89  
+   90: # Friends
+   91: friends: [
+   92      # {
+   93      #     title: "Su",
+
+/Users/ch/Documents/github/superwaterfox.github.io/README.md:
+   68  
+   69  - We now support a clean and gorgeous **[SideBar](#sidebar)** for displaying more info
+   70: - **[Friends](#friends)** is also added as a common feature of blog help you do SEO
+   71  
+   72  ##### V1.0
+   ..
+   98  	* [Mini About Me](#mini-about-me)
+   99  	* [Featured Tags](#featured-tags)
+  100: 	* [Friends](#friends)
+  101  	* [Keynote Layout](#keynote-layout)
+  102  * Comment & Analysis
+  ...
+  169  ```
+  170  
+  171: We default support *[Featured Tags](#featured-tags)*, *[Mini About Me](#mini-about-me)* and *[Friends](#friends)* these three modules and you can add your own. The sidebar is naturally responsive and would be push to bottom in a small screen size (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))  
+  172  More details of these three separate modules are talking below.
+  173  
+  ...
+  193  Internally, a condition template `{% if tag[1].size > {{site.featured-condition-size}} %}` is used to do the filter.
+  194  
+  195: #### Friends
+  196  
+  197: Friends is a very common feature of a blog seeing the SEO, so I add it in V1.1 release to help that.   
+  198: Friends can also live without enable sidebar, also be displayed in the bottom when sidebar unable, and be displayed in every post page bottom.
+  199  
+  200  
+  201: You can just add your friends information in `_config.yml` with a familiar JSON syntax and everything is done, very easy:
+  202  
+  203  ```
+  204: # Friends
+  205: friends: [
+  206      {
+  207          title: "Foo Blog",
+
+/Users/ch/Documents/github/superwaterfox.github.io/README.zh.md:
+   57  	* [迷你关于我](#mini-about-me)
+   58  	* [推荐标签](#featured-tags)
+   59: 	* [好友链接](#friends)
+   60  	* [HTML5 演示文档布局](#keynote-layout)
+   61  * 评论与 Google/Baidu Analytics
+   ..
+  150  
+  151  
+  152: #### Friends
+  153  
+  154  好友链接部分。这会在全部页面显示。
+  155  
+  156: 设置是在 `_config.yml`文件里面的`Friends`那块，自己加吧。
+  157  
+  158  ```
+  159: # Friends
+  160: friends: [
+  161      {
+  162          title: "Foo Blog",
+
+/Users/ch/Documents/github/superwaterfox.github.io/_layouts/keynote.html:
+  162                  {% endif %}
+  163  
+  164:                 <!-- Friends Blog -->
+  165:                 {% if site.friends %}
+  166                  <hr>
+  167:                 <h5>FRIENDS</h5>
+  168                  <ul class="list-inline">
+  169:                     {% for friend in site.friends %}
+  170                          <li><a href="{{friend.href}}" target="_blank">{{friend.title}}</a></li>
+  171                      {% endfor %}
+
+/Users/ch/Documents/github/superwaterfox.github.io/_layouts/page.html:
+   50                  {% endif %}
+   51  
+   52:                 <!-- Friends Blog -->
+   53:                 {% if site.friends %}
+   54                  <hr>
+   55:                 <h5>FRIENDS</h5>
+   56                  <ul class="list-inline">
+   57:                     {% for friend in site.friends %}
+   58                          <li><a href="{{friend.href}}" target="_blank">{{friend.title}}</a></li>
+   59                      {% endfor %}
+   ..
+  184                      </div>
+  185                  </section>
+  186:                 <!-- Friends Blog -->
+  187:                 {% if site.friends %}
+  188                  <hr>
+  189:                 <h5>FRIENDS</h5>
+  190                  <ul class="list-inline">
+  191:                     {% for friend in site.friends %}
+  192                          <li><a href="{{friend.href}}" target="_blank">{{friend.title}}</a></li>
+  193                      {% endfor %}
+
+/Users/ch/Documents/github/superwaterfox.github.io/_layouts/post.html:
+  173                  {% endif %}
+  174  
+  175:                 <!-- Friends Blog -->
+  176:                 {% if site.friends %}
+  177                  <hr>
+  178:                 <h5>FRIENDS</h5>
+  179                  <ul class="list-inline">
+  180:                     {% for friend in site.friends %}
+  181                          <li><a href="{{friend.href}}" target="_blank">{{friend.title}}</a></li>
+  182                      {% endfor %}
+
+/Users/ch/Documents/github/superwaterfox.github.io/less/sidebar.less:
+   15  }
+   16  
+   17: // Container of Sidebar, also Friends
+   18  .sidebar-container{
+   19      color: @gray-l;
+
+36 matches across 7 files
